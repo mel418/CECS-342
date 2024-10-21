@@ -1,0 +1,229 @@
+main.cpp (C++ output):
+Numbers sorted in ascending: 
+-876.32
+-34.23
+1.1
+1.11
+5.31
+23.46
+37.59
+62.25
+76.41
+467.83
+635.47
+645.41
+
+People sorted by name: 
+Benny
+Cindy
+Cory
+Danna
+Doretha
+Dwight
+Hal
+Juan
+Kassandra
+Lawrence
+Mac
+Natalie
+Risa
+Romana
+Rosalyn
+Susann
+Zara
+
+People sorted by descending age: 
+Juan, 33
+Doretha, 32
+Susann, 31
+Benny, 28
+Cory, 27
+Romana, 27
+Rosalyn, 26
+Lawrence, 25
+Natalie, 25
+Risa, 24
+Zara, 23
+Cindy, 22
+Kassandra, 21
+Danna, 20
+Hal, 20
+Dwight, 19
+Mac, 19
+
+main.py (Python output):
+Sorted numbers ascending by numerical value: 
+-876.32
+-34.23
+1.1
+1.11
+5.31
+23.46
+37.59
+62.25
+76.41
+467.83
+635.47
+645.41
+
+Sorted people alphabetically (lexicographically) by name: 
+Benny; 28
+Cindy; 22
+Cory; 27
+Danna; 20
+Doretha; 32
+Dwight; 19
+Hal; 20
+Juan; 33
+Kassandra; 21
+Lawrence; 25
+Mac; 19
+Natalie; 25
+Risa; 24
+Romana; 27
+Rosalyn; 26
+Susann; 31
+Zara; 23
+
+Sorted people descending by age, 
+where people of the same age should be sorted alphabetically (lexicographically): 
+Juan; 33
+Doretha; 32
+Susann; 31
+Benny; 28
+Cory; 27
+Romana; 27
+Rosalyn; 26
+Lawrence; 25
+Natalie; 25
+Risa; 24
+Zara; 23
+Cindy; 22
+Kassandra; 21
+Danna; 20
+Hal; 20
+Dwight; 19
+Mac; 19
+
+main.hs (Haskell output):
+Numbers sorted in ascending:
+[-876.32,-34.23,1.1,1.11,5.31,23.46,37.59,62.25,76.41,467.83,635.47,645.41]
+
+People sorted by name:
+[("Benny",28),("Cindy",22),("Cory",27),("Danna",20),("Doretha",32),("Dwight",19),("Hal",20),("Juan",33),("Kassandra",21),("Lawrence",25),("Mac",19),("Natalie",25),("Risa",24),("Romana",27),("Rosalyn",26),("Susann",31),("Zara",23)]
+
+People sorted by descending age:
+[("Juan",33),("Doretha",32),("Susann",31),("Benny",28),("Cory",27),("Romana",27),("Rosalyn",26),("Lawrence",25),("Natalie",25),("Risa",24),("Zara",23),("Cindy",22),("Kassandra",21),("Danna",20),("Hal",20),("Dwight",19),("Mac",19)]
+
+main.cs (C# Output):
+Sorted numbers:
+-876.32 
+-34.23 
+1.1 
+1.11 
+5.31 
+23.46 
+37.59 
+62.25 
+76.41 
+467.83 
+635.47 
+645.41 
+
+
+Sorted people by name:
+Benny, 28
+Cindy, 22
+Cory, 27
+Danna, 20
+Doretha, 32
+Dwight, 19
+Hal, 20
+Juan, 33
+Kassandra, 21
+Lawrence, 25
+Mac, 19
+Natalie, 25
+Risa, 24
+Romana, 27
+Rosalyn, 26
+Susann, 31
+Zara, 23
+
+Sorted people by age:
+Juan, 33
+Doretha, 32
+Susann, 31
+Benny, 28
+Cory, 27
+Romana, 27
+Rosalyn, 26
+Lawrence, 25
+Natalie, 25
+Risa, 24
+Zara, 23
+Cindy, 22
+Kassandra, 21
+Danna, 20
+Hal, 20
+Dwight, 19
+Mac, 19
+
+main.c (C Output):
+Sorted numbers:
+-876.32 -34.23 1.10 1.11 5.31 23.46 37.59 62.25 76.41 467.83 635.47 645.41 
+
+Sorted people by name:
+Benny, 28
+Cindy, 22
+Cory, 27
+Danna, 20
+Doretha, 32
+Dwight, 19
+Hal, 20
+Juan, 33
+Kassandra, 21
+Lawrence, 25
+Mac, 19
+Natalie, 25
+Risa, 24
+Romana, 27
+Rosalyn, 26
+Susann, 31
+Zara, 23
+
+Sorted people by age:
+Juan, 33
+Doretha, 32
+Susann, 31
+Benny, 28
+Cory, 27
+Romana, 27
+Rosalyn, 26
+Lawrence, 25
+Natalie, 25
+Risa, 24
+Zara, 23
+Cindy, 22
+Kassandra, 21
+Danna, 20
+Hal, 20
+Dwight, 19
+Mac, 19
+
+
+Please list all tools (i.e. compilers, editors, IDEs, etc.) and websites (i.e. discord.com, haskel.org, REPL.it, etc.) that you used to complete this assignment.
+
+Tools:
+Visual Studio Code
+g++
+cc
+ghci
+.net
+
+Websites:
+REPL.it
+w3schools.com
+geeksforgeeks.org
+wikipedia.org
+chatgpt.com
