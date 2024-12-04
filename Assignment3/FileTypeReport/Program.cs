@@ -26,8 +26,9 @@ namespace FileTypeReport {
 
       // Define the units of file size
       string[] units = { "B", "kB", "MB", "GB", "TB", "PB", "EB", "ZB" };
-      double size = byteSize;
+      double size = byteSize; // create a double to byteSize for 2 decimal places
       int unitIndex = 0;
+      // ex: 1kB = 10000B. if the bytesize is greater than 1000, format it.
 
       // Convert to appropriate size units
       while (size >= 1000 && unitIndex < units.Length - 1) {
@@ -52,7 +53,9 @@ namespace FileTypeReport {
           Type = fileGroup.Key, // file extension
           Count = fileGroup.Count(),
           TotalSize = fileGroup.Sum(f => f.Length)  // Total size of files in this group
-        };
+        } into result
+        orderby result.TotalSize descending // Sort the table by the byte size value of the “Size” column in descending order.
+        select result; 
 
       // 3. Functionally construct XML
       var alignment = new XAttribute("align", "right");
